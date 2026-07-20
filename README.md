@@ -7,6 +7,7 @@
 
 * **__NOTICE__: These are ethically gray mods.** You won't get banned unless Valve says otherwise, as these work purely using Panorama. But expect these to probably get patched out silently in the near future.
     * _How would they patch this?_ Really simple. Change hero icon button_maps on the minimap to native canvas rendering rather than exposing them.
+    * Limiting exposure of any hero-related Panorama element & preventing its use in scripting would work.
 
 * Everything in this Repo is a work-in progress, and is not ready for me to release yet (will have bugs and work inconsistently, or otherwise won't look the way I intend)
 
