@@ -7,6 +7,7 @@
 
 * **__NOTICE__: These are ethically gray mods.** You won't get banned unless Valve says otherwise, as these work purely using Panorama. But expect these to probably get patched out silently in the near future.
     * _How would they patch this?_ Really simple. Change hero icon button_maps on the minimap to native canvas rendering rather than exposing them.
+  
     * Limiting exposure of any hero-related Panorama element & preventing its use in scripting would work.
 
 * Everything in this Repo is a work-in progress, and is not ready for me to release yet (will have bugs and work inconsistently, or otherwise won't look the way I intend)
@@ -16,12 +17,16 @@
 
 ## How do I use LastSpot?
 * Press F9 and open the menus, at the start of a match you assign ID's to hero icon's.
+ 
 * Currently, a ripped/updated version of Hanturaya's minimap mod is merged with the current version of LastSpot. If you don't have a minimap mod already, press F8 and you can configure one. If you do have a minimap mod already, test with placing it in the mod priority before LastSpot.
 
 ## What is the Soul Advantage mod?
 * This is another mod I created that is currently bundled with LastSpot. Soul Advantage, is simply the net spent souls you have relative to every player in a lobby, giving you an exact idea of how much up you are on a player.
+
 * A +- value displayed above a hero portrait shows your relative spent souls to another hero (e.g. if you have spent 6.4k, and an enemy Billy has spent 4.8k, the value above the Billy would display -1.6k, since they are 1.6k souls down compared to your current spent souls)
+
 * RGB coloring dynamically applies to the Soul Advantage HUD as well based on the % difference that another hero is up/down relative to you. Bright red means huge disparity that works against you, while green indicates a huge advantage that works for you.
+
 * Basically, green GOOD and FIGHT; red BAD and NO FIGHT for the cavemen out there.
 
 ## How do I use Soul Advantage?
