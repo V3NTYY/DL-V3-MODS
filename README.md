@@ -23,6 +23,9 @@
 * RGB coloring dynamically applies to the Soul Advantage HUD as well based on the % difference that another hero is up/down relative to you. Bright red means huge disparity that works against you, while green indicates a huge advantage that works for you.
 * Basically, green GOOD and FIGHT; red BAD and NO FIGHT for the cavemen out there.
 
+## How do I use Soul Advantage?
+* It works automatically/triggers after the 60sec LastSpot scan. If you want to configure it some of its HUD elements, use F10 and play around.
+
 ## Mod conflicts?
 * _LastSpot_ ships several vanilla modifications (hud.xml, hud.css, etc...). Anything else that does, if you make a request in the discord I can create a merged version for you. No _QOL-Lock_.
 
